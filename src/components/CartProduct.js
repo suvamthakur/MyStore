@@ -58,7 +58,7 @@ const CartProduct = ({ index, product }) => {
   };
 
   const decreaseQuantity = () => {
-    if (!(minimumOrderQuantity <= productQuantity)) {
+    if (minimumOrderQuantity <= productQuantity) {
       setProductQuantity(productQuantity - 1);
     }
   };
