@@ -15,7 +15,7 @@ const HomePageProductCard = ({ productData, category }) => {
       <div className="w-48 mr-2 border hover:shadow-xl bg-gray-100">
         <div className="w-full flex justify-center h-56 ">
           <img
-            loading="eager"
+            loading="lazy"
             src={images[0]}
             alt=""
             className="h-full object-cover pt-3 px-3"
